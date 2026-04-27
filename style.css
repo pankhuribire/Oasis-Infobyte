@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #a8edea, #fed6e3);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    background: rgb(246, 229, 198);
+    width: 350px;
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgb(0,0,0,0,2);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input{
+    width: auto !important;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    outline-offset: none;
+
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #488b4a;
+    color: whitesmoke;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#time {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff3b3b;
+}
+
+form{
+    text-align: left !important;
+    margin-left: 10px 0;
+}
+
+p{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form br{
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="radio"] {
+    width: auto !importantimportant;
+    margin-right: 8px;
+    display: inline;
+}
+
+.option{
+    display: block;
+    margin: 8px 0;
+}
+
